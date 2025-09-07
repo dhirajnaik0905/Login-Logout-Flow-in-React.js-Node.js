@@ -1,0 +1,85 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen body */
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4a90e2, #50c9ce);
+}
+
+/* Flexbox container to center */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;   /* full screen */
+  width: 100%;
+}
+
+/* Card style */
+.card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;   /* card stays neat */
+  text-align: center;
+}
+
+/* Title */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input:focus {
+  border-color: #4a90e2;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+/* Links */
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+p:hover {
+  color: #4a90e2;
+  cursor: pointer;
+}
